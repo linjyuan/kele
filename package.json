@@ -1,0 +1,26 @@
+{
+  "name": "keleweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*",
+    "apps/kele_App"
+  ],
+  "scripts": {
+    "dev:app": "kele dev app",
+    "dev": "cd apps/kele_App && pnpm run dev",
+    "build:ui": "kele build ui",
+    "build": "cd apps/kele_App && pnpm run build",
+    "build:test": "cd apps/kele_App && pnpm run build:test",
+    "build:prod": "cd apps/kele_App && pnpm run start mode=prod"
+  },
+  "keywords": [
+    "kele"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.10.5"
+  }
+}

@@ -1,8 +1,9 @@
 /node_modules
-/apps/kele_app/node_modules
+/apps/**/node_modules
 /sppd/kele_app/.vscode
-/packages/*/node_modules
+/packages/**/node_modules
 /dist
-/packages/*/dist
+/packages/**/dist
+/apps/**/dist
 */pnpm-lock.yaml
 */.vscode

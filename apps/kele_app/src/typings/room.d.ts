@@ -1,4 +1,4 @@
-import { UserInfo } from './user.d';
+import { User } from './user.d.ts'
 /**
  * 聊天室
  */
@@ -16,7 +16,7 @@ export namespace Room {
     /** 房间id */
     roomId: number
     /** 群成员 */
-    userList: Array<UserInfo.Data>
+    userList: Array<User.Data>
   }
 
   /** 聊天室类型 */
@@ -26,5 +26,4 @@ export namespace Room {
     /** 单聊 */
     single: number
   }
-
 }
